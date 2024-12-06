@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1501AE712CE851A500241C87 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1501AE702CE851A400241C87 /* AudioKit */; };
+		1501AE742CE851D700241C87 /* AudioKitEX in Frameworks */ = {isa = PBXBuildFile; productRef = 1501AE732CE851D700241C87 /* AudioKitEX */; };
+		1501AE772CE851FD00241C87 /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1501AE762CE851FD00241C87 /* SoundpipeAudioKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		150799022CE8508A00BAAD76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150798E92CE8508800BAAD76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150798F02CE8508800BAAD76;
+			remoteInfo = "Tala Tuner";
+		};
+		1507990C2CE8508A00BAAD76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150798E92CE8508800BAAD76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150798F02CE8508800BAAD76;
+			remoteInfo = "Tala Tuner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		150798F12CE8508800BAAD76 /* Tala Tuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tala Tuner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150799012CE8508A00BAAD76 /* Tala TunerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tala TunerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1507990B2CE8508A00BAAD76 /* Tala TunerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tala TunerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		150798F32CE8508800BAAD76 /* Tala Tuner */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tala Tuner";
+			sourceTree = "<group>";
+		};
+		150799042CE8508A00BAAD76 /* Tala TunerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tala TunerTests";
+			sourceTree = "<group>";
+		};
+		1507990E2CE8508A00BAAD76 /* Tala TunerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tala TunerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150798EE2CE8508800BAAD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1501AE712CE851A500241C87 /* AudioKit in Frameworks */,
+				1501AE742CE851D700241C87 /* AudioKitEX in Frameworks */,
+				1501AE772CE851FD00241C87 /* SoundpipeAudioKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150798FE2CE8508A00BAAD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150799082CE8508A00BAAD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150798E82CE8508800BAAD76 = {
+			isa = PBXGroup;
+			children = (
+				150798F32CE8508800BAAD76 /* Tala Tuner */,
+				150799042CE8508A00BAAD76 /* Tala TunerTests */,
+				1507990E2CE8508A00BAAD76 /* Tala TunerUITests */,
+				150798F22CE8508800BAAD76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		150798F22CE8508800BAAD76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150798F12CE8508800BAAD76 /* Tala Tuner.app */,
+				150799012CE8508A00BAAD76 /* Tala TunerTests.xctest */,
+				1507990B2CE8508A00BAAD76 /* Tala TunerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		150798F02CE8508800BAAD76 /* Tala Tuner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150799152CE8508B00BAAD76 /* Build configuration list for PBXNativeTarget "Tala Tuner" */;
+			buildPhases = (
+				150798ED2CE8508800BAAD76 /* Sources */,
+				150798EE2CE8508800BAAD76 /* Frameworks */,
+				150798EF2CE8508800BAAD76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				150798F32CE8508800BAAD76 /* Tala Tuner */,
+			);
+			name = "Tala Tuner";
+			packageProductDependencies = (
+				1501AE702CE851A400241C87 /* AudioKit */,
+				1501AE732CE851D700241C87 /* AudioKitEX */,
+				1501AE762CE851FD00241C87 /* SoundpipeAudioKit */,
+			);
+			productName = "Tala Tuner";
+			productReference = 150798F12CE8508800BAAD76 /* Tala Tuner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		150799002CE8508A00BAAD76 /* Tala TunerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150799182CE8508B00BAAD76 /* Build configuration list for PBXNativeTarget "Tala TunerTests" */;
+			buildPhases = (
+				150798FD2CE8508A00BAAD76 /* Sources */,
+				150798FE2CE8508A00BAAD76 /* Frameworks */,
+				150798FF2CE8508A00BAAD76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				150799032CE8508A00BAAD76 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				150799042CE8508A00BAAD76 /* Tala TunerTests */,
+			);
+			name = "Tala TunerTests";
+			packageProductDependencies = (
+			);
+			productName = "Tala TunerTests";
+			productReference = 150799012CE8508A00BAAD76 /* Tala TunerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1507990A2CE8508A00BAAD76 /* Tala TunerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1507991B2CE8508B00BAAD76 /* Build configuration list for PBXNativeTarget "Tala TunerUITests" */;
+			buildPhases = (
+				150799072CE8508A00BAAD76 /* Sources */,
+				150799082CE8508A00BAAD76 /* Frameworks */,
+				150799092CE8508A00BAAD76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1507990D2CE8508A00BAAD76 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1507990E2CE8508A00BAAD76 /* Tala TunerUITests */,
+			);
+			name = "Tala TunerUITests";
+			packageProductDependencies = (
+			);
+			productName = "Tala TunerUITests";
+			productReference = 1507990B2CE8508A00BAAD76 /* Tala TunerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150798E92CE8508800BAAD76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					150798F02CE8508800BAAD76 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					150799002CE8508A00BAAD76 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 150798F02CE8508800BAAD76;
+					};
+					1507990A2CE8508A00BAAD76 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 150798F02CE8508800BAAD76;
+					};
+				};
+			};
+			buildConfigurationList = 150798EC2CE8508800BAAD76 /* Build configuration list for PBXProject "Tala Tuner" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 150798E82CE8508800BAAD76;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1501AE6F2CE851A400241C87 /* XCRemoteSwiftPackageReference "AudioKit" */,
+				1501AE722CE851D700241C87 /* XCRemoteSwiftPackageReference "AudioKitEX" */,
+				1501AE752CE851FD00241C87 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 150798F22CE8508800BAAD76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150798F02CE8508800BAAD76 /* Tala Tuner */,
+				150799002CE8508A00BAAD76 /* Tala TunerTests */,
+				1507990A2CE8508A00BAAD76 /* Tala TunerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		150798EF2CE8508800BAAD76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150798FF2CE8508A00BAAD76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150799092CE8508A00BAAD76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150798ED2CE8508800BAAD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150798FD2CE8508A00BAAD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150799072CE8508A00BAAD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		150799032CE8508A00BAAD76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150798F02CE8508800BAAD76 /* Tala Tuner */;
+			targetProxy = 150799022CE8508A00BAAD76 /* PBXContainerItemProxy */;
+		};
+		1507990D2CE8508A00BAAD76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150798F02CE8508800BAAD76 /* Tala Tuner */;
+			targetProxy = 1507990C2CE8508A00BAAD76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		150799132CE8508B00BAAD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Tala Tuner needs microphone access to detect musical pitches.";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		150799142CE8508B00BAAD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Tala Tuner needs microphone access to detect musical pitches.";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		150799162CE8508B00BAAD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tala Tuner/Preview Content\"";
+				DEVELOPMENT_TEAM = WKZM7D6UUC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ghostai.Tala-Tuner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		150799172CE8508B00BAAD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tala Tuner/Preview Content\"";
+				DEVELOPMENT_TEAM = WKZM7D6UUC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ghostai.Tala-Tuner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		150799192CE8508B00BAAD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKZM7D6UUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ghostai.Tala-TunerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tala Tuner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tala Tuner";
+			};
+			name = Debug;
+		};
+		1507991A2CE8508B00BAAD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKZM7D6UUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ghostai.Tala-TunerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tala Tuner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tala Tuner";
+			};
+			name = Release;
+		};
+		1507991C2CE8508B00BAAD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKZM7D6UUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ghostai.Tala-TunerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tala Tuner";
+			};
+			name = Debug;
+		};
+		1507991D2CE8508B00BAAD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKZM7D6UUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ghostai.Tala-TunerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tala Tuner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150798EC2CE8508800BAAD76 /* Build configuration list for PBXProject "Tala Tuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150799132CE8508B00BAAD76 /* Debug */,
+				150799142CE8508B00BAAD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150799152CE8508B00BAAD76 /* Build configuration list for PBXNativeTarget "Tala Tuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150799162CE8508B00BAAD76 /* Debug */,
+				150799172CE8508B00BAAD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150799182CE8508B00BAAD76 /* Build configuration list for PBXNativeTarget "Tala TunerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150799192CE8508B00BAAD76 /* Debug */,
+				1507991A2CE8508B00BAAD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1507991B2CE8508B00BAAD76 /* Build configuration list for PBXNativeTarget "Tala TunerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1507991C2CE8508B00BAAD76 /* Debug */,
+				1507991D2CE8508B00BAAD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1501AE6F2CE851A400241C87 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.4;
+			};
+		};
+		1501AE722CE851D700241C87 /* XCRemoteSwiftPackageReference "AudioKitEX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitEX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		1501AE752CE851FD00241C87 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/SoundpipeAudioKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1501AE702CE851A400241C87 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1501AE6F2CE851A400241C87 /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		1501AE732CE851D700241C87 /* AudioKitEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1501AE722CE851D700241C87 /* XCRemoteSwiftPackageReference "AudioKitEX" */;
+			productName = AudioKitEX;
+		};
+		1501AE762CE851FD00241C87 /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1501AE752CE851FD00241C87 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */;
+			productName = SoundpipeAudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 150798E92CE8508800BAAD76 /* Project object */;
+}
